@@ -1,0 +1,59 @@
+{
+    "id": "unity_basics",
+    "name": "Unity Basics",
+    "description": "Covers fundamental Unity concepts, GameObjects, and the Unity Editor.",
+    "version": "1.0.0",
+    "questions": [
+      {
+        "id": "UNITY1_001",
+        "questionText": "What is a GameObject in Unity?",
+        "type": "single",
+        "options": [
+          { "id": "A", "text": "A visual object in the game" },
+          { "id": "B", "text": "The base class for all entities in a Unity scene" },
+          { "id": "C", "text": "A MonoBehaviour instance" }
+        ],
+        "correctAnswers": ["B"],
+        "explanation": "GameObject is the base class for all entities in a Unity scene. Components are added to GameObjects."
+      },
+      {
+        "id": "UNITY1_002",
+        "questionText": "Which components are commonly used in Unity?",
+        "type": "multiple",
+        "options": [
+          { "id": "A", "text": "Transform" },
+          { "id": "B", "text": "Rigidbody" },
+          { "id": "C", "text": "MeshFilter" },
+          { "id": "D", "text": "Inspector" }
+        ],
+        "correctAnswers": ["A", "B", "C"],
+        "explanation": "Transform, Rigidbody, and MeshFilter are valid components. 'Inspector' is not a component — it’s part of the Unity Editor UI."
+      },
+      {
+        "id": "UNITY1_003",
+        "questionText": "Which method is called once when a script is first run?",
+        "type": "single",
+        "options": [
+          { "id": "A", "text": "Update()" },
+          { "id": "B", "text": "Start()" },
+          { "id": "C", "text": "Awake()" }
+        ],
+        "correctAnswers": ["B"],
+        "explanation": "Start() is called before the first frame update, only if the script instance is enabled. Awake() is called when the script is loaded."
+      },
+      {
+        "id": "UNITY1_004",
+        "questionText": "Which of the following are valid Unity lifecycle methods?",
+        "type": "multiple",
+        "options": [
+          { "id": "A", "text": "OnEnable()" },
+          { "id": "B", "text": "OnStart()" },
+          { "id": "C", "text": "OnDestroy()" },
+          { "id": "D", "text": "FixedUpdate()" }
+        ],
+        "correctAnswers": ["A", "C", "D"],
+        "explanation": "Unity has OnEnable, OnDestroy, and FixedUpdate. OnStart() is not a valid Unity method."
+      }
+    ]
+  }
+  
