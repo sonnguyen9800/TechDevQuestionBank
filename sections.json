@@ -1,0 +1,14 @@
+[
+    {
+      "id": "unity_basics",
+      "name": "Unity Basics",
+      "description": "Fundamental Unity concepts",
+      "file": "sections/unity_basics.json"
+    },
+    {
+      "id": "dotnet_intro",
+      "name": ".NET Introduction",
+      "description": "Covers .NET core concepts",
+      "file": "sections/dotnet_intro.json"
+    }
+  ]
