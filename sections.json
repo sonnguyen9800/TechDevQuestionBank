@@ -3,14 +3,14 @@
       "id": "unity_basics_1",
       "name": "Unity Basics",
       "description": "Fundamental Unity concepts",
-      "file": "sections/unity_basics.json",
+      "file": "public/sections/unity_basics.json",
         "version": "0.0.1"
     },
     {
       "id": "dotnet_intro_1",
       "name": ".NET Introduction",
       "description": "Covers .NET core concepts",
-      "file": "sections/dotnet_intro.json",
+      "file": "public/sections/dotnet_intro.json",
          "version": "0.0.1"
     }
   ]
